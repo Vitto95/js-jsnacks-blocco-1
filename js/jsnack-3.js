@@ -9,3 +9,5 @@ for (var i = 1; i <= 10; i++) {
 }
 
 console.log("Ecco la somma: ", somma);
+
+document.getElementById("somma").innerHTML = "Ecco la somma: " + somma;
