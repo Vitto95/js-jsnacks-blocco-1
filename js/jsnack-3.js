@@ -2,6 +2,7 @@
 
 var somma = 0;
 var number;
+
 for (var i = 1; i <= 10; i++) {
   number = parseInt(prompt("Inserisci un numero: "));
   somma += number;
