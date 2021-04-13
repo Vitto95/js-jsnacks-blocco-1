@@ -1,4 +1,4 @@
-var yourNumber = prompt("Inserisci un numero: ");
+var yourNumber = parseInt(prompt("Inserisci un numero: "));
 var somma_cubo = 0;
 
 for (var i = 1; i <= yourNumber; i++) {
